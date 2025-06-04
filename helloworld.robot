@@ -7,7 +7,7 @@ ${PHONE_NUMBER}   1234567890
 ${LAST_NAME}      Kiełbasa
 ${ROLE}           Król Polski
 ${ADDRESS}        Zamek
-${COMPANY_NAME}   Bleble
+${COMPANY_NAME}   Polska
 ${EMAIL}          król@polska.pl
 ${FIRST_NAME}     Antoni
  
@@ -27,3 +27,6 @@ Open Website And Fill Form
     Click Button    xpath=//input[@type='submit']
     Sleep    5s
     Close Browser
+
+Test Case That Always Fails
+    Fail  This is an utter failure
